@@ -16,7 +16,8 @@ export const FirstPage = () => {
     return (
         <div>
         <h1> carisma</h1>
-        <h1> {Valor} xd</h1>
+        <hr />
+        <h1> {Valor} mamahuevo</h1>
         <button onClick={() => modificar(+1)}>+ 1 de carisma</button>
         <button onClick={() => modificar(-1)}>- 1 de carisma</button>
         <button onClick={reset}>carisma inicial</button>
